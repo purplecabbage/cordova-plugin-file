@@ -9,7 +9,7 @@ install:
   - npm install -g cordova
   - npm install -g ios-sim
 script:
-  - cordova-paramedic --platform ios --plugin .
+  - cordova-paramedic --platform ios --plugin ./
 
 
 
